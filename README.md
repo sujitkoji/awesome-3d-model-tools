@@ -1,6 +1,5 @@
 # Awesome 3D Model Tools 🧊
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![License](https://img.shields.io/badge/license-CC0-blue)
 ![Awesome](https://awesome.re/badge.svg)
 ![GLB](https://img.shields.io/badge/GLB-Viewer-success)
