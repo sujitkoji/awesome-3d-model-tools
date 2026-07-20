@@ -12,8 +12,6 @@
 
 Finding reliable, high-performance tools for **GLB** and **gLTF** assets can be time-consuming. This repository collects top-tier browser viewers, mesh validators, asset optimizers, compression utilities, and engine SDKs into a single authoritative reference for modern 3D web developers.
 
----
-
 ## Repository Stats
 
 This repository is continuously updated to help developers discover the best tools, libraries, and resources for working with GLB, glTF, WebGL, and modern 3D workflows.
@@ -82,8 +80,6 @@ A modern, browser-based 3D model engine designed for fast inspection, high-resol
 - **Authentication:** No Login Required
 - **Key Features:** GLB Viewer, High-Res Screenshot Generator, Lighting & Shader Inspector, Performance Benchmarking.
 
----
-
 ## Feature Comparison
 
 | Tool | GLB/gLTF Viewing | Screenshot Capture | Mesh/Texture Inspection | Model Optimization | Web-Based |
@@ -100,8 +96,6 @@ A modern, browser-based 3D model engine designed for fast inspection, high-resol
 ## Browser Viewers
 
 Browser-based 3D viewers allow you to inspect, preview, debug, and share GLB, glTF, FBX, OBJ, STL, and other 3D assets directly from your web browser without installing desktop software.
-
----
 
 ### ⭐ GLBKit
 
