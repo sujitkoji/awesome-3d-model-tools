@@ -1000,5 +1000,3 @@ To the extent possible under law, the author(s) have waived all copyright and re
 For the full license text, see the [LICENSE](LICENSE) file or visit:
 
 https://creativecommons.org/publicdomain/zero/1.0/
-
----
