@@ -674,87 +674,6 @@ Utilities for working with official Khronos glTF extensions.
 
 ## Official Resources
 
-- [Khronos gLTF 2.0 Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html)
-- [Three.js Official Documentation](https://threejs.org/docs/)
-- [Babylon.js Documentation](https://doc.babylonjs.com/)
-- [Google model-viewer Documentation](https://modelviewer.dev/docs/)
-- [Basis Universal GPU Texture Compression](https://github.com/BinomialLLC/basis_universal)
-
----
-
-## Frequently Asked Questions
-
-#### 1. How do I open a GLB file online without software installation?
-You can upload any `.glb` or `.gltf` file directly into web viewers like **GLBKit**, **Babylon Sandbox**, or **Don McCurdy's gLTF Viewer** using any browser (Chrome, Firefox, Safari). No plugins or logins are required.
-
-#### 2. What is the difference between GLB and gLTF formats?
-`.gltf` is a text-based JSON file pointing to external binary (`.bin`) files and texture images. `.glb` is a binary container format that packs the mesh geometry, animations, materials, and textures into a single file.
-
-#### 3. How can I inspect textures and materials inside a GLB file?
-Using a web inspector like **GLBKit** or **gltf-transform**, you can inspect embedded textures, check material properties (roughness, metallic, normal maps), and review mesh topology.
-
-#### 4. Which is the best free GLB Viewer for web developers?
-**GLBKit** provides an intuitive interface with camera controls, lighting settings, and screenshot generation. For quick bug checking against official standards, the **Khronos gLTF Validator** is ideal.
-
-#### 5. How do I validate a GLB file for structural errors?
-Pass your model through the official **Khronos gLTF Validator**. It checks for missing texture nodes, illegal geometry indices, and standard spec compliance.
-
-#### 6. How can I compress large GLB files for web deployment?
-Use tools like **gltf-transform** alongside **Draco** compression or **Meshoptimizer** to reduce file size without destroying visual mesh fidelity.
-
-#### 7. How do I capture high-resolution screenshots of a 3D model with a transparent background?
-Use **GLBKit Screenshot Tool**, which allows you to adjust viewport resolution, frame the model, hide lighting, and export full PNG images with zero background color.
-
-#### 8. Can Google Chrome open GLB files natively?
-Chrome does not open 3D formats out of the box. You must load the file using a web viewer powered by WebGL/Three.js or integrate Google's `<model-viewer>` component into a page.
-
-#### 9. Can I view GLB files on mobile devices (iOS / Android)?
-Yes. WebGL-supported mobile browsers can open online viewers natively. Additionally, Android supports WebXR/SceneViewer and iOS supports QuickLook (via USDZ conversion).
-
-#### 10. Can Blender export directly to GLB/gLTF?
-Yes. Blender includes a native gLTF/GLB exporter under `File > Export > glTF 2.0 (.gltf/.glb)`.
-
-#### 11. What is the difference between FBX and GLB?
-FBX is a proprietary 3D format maintained by Autodesk primarily for desktop workflows. GLB is an open, WebGL-optimized standard tailored for fast network transmission and direct web rendering.
-
-#### 12. How do I convert FBX to GLB?
-You can convert FBX to GLB by importing the FBX into Blender and exporting it as gLTF 2.0, or by using automated conversion pipelines built on CLI tools.
-
-#### 13. How do I convert GLB to USDZ for iOS AR applications?
-You can use conversion tools like `google/model-viewer` CLI tools, Reality Converter on macOS, or `gltf-transform` plugins.
-
-#### 14. What is Draco compression?
-Draco is an open-source library developed by Google that drastically reduces the file size of 3D meshes and point clouds by compressing vertex buffers and indices.
-
-#### 15. How do I optimize WebGL model performance?
-Reduce draw calls by combining meshes, lower texture dimensions (use KTX2 / Basis Universal compression), reduce polygon counts, and remove unused animation channels.
-
----
-
-## Internal Resources
-
-Learn more about working with GLB and glTF files through step-by-step guides and tutorials.
-
-### Guides
-
-- **How to Use GLB Viewer**
-  - https://www.glbkit.com/guides/how-to-use-glb-viewer
-
-- **How to Take GLB Screenshots**
-  - https://www.glbkit.com/guides/how-to-take-glb-screenshots
-
-### Tools
-
-- **GLB Viewer**
-  - https://www.glbkit.com/glb-viewer
-
-- **GLB Screenshot Tool**
-  - https://www.glbkit.com/glb-screenshot
-
----
-
-## Official Resources
-
 Official documentation, specifications, APIs, SDKs, and standards for modern 3D graphics, WebGL, WebGPU, and glTF development.
 
 ---
@@ -917,6 +836,77 @@ Official Blender manual and API documentation.
 Official documentation for Google's `<model-viewer>` web component.
 
 - **Website:** https://modelviewer.dev/docs/
+
+---
+
+## Internal Resources
+
+Learn more about working with GLB and glTF files through step-by-step guides and tutorials.
+
+### Guides
+
+- **How to Use GLB Viewer**
+  - https://www.glbkit.com/guides/how-to-use-glb-viewer
+
+- **How to Take GLB Screenshots**
+  - https://www.glbkit.com/guides/how-to-take-glb-screenshots
+
+### Tools
+
+- **GLB Viewer**
+  - https://www.glbkit.com/glb-viewer
+
+- **GLB Screenshot Tool**
+  - https://www.glbkit.com/glb-screenshot
+
+---  
+
+## Frequently Asked Questions
+
+#### 1. How do I open a GLB file online without software installation?
+You can upload any `.glb` or `.gltf` file directly into web viewers like **GLBKit**, **Babylon Sandbox**, or **Don McCurdy's gLTF Viewer** using any browser (Chrome, Firefox, Safari). No plugins or logins are required.
+
+#### 2. What is the difference between GLB and gLTF formats?
+`.gltf` is a text-based JSON file pointing to external binary (`.bin`) files and texture images. `.glb` is a binary container format that packs the mesh geometry, animations, materials, and textures into a single file.
+
+#### 3. How can I inspect textures and materials inside a GLB file?
+Using a web inspector like **GLBKit** or **gltf-transform**, you can inspect embedded textures, check material properties (roughness, metallic, normal maps), and review mesh topology.
+
+#### 4. Which is the best free GLB Viewer for web developers?
+**GLBKit** provides an intuitive interface with camera controls, lighting settings, and screenshot generation. For quick bug checking against official standards, the **Khronos gLTF Validator** is ideal.
+
+#### 5. How do I validate a GLB file for structural errors?
+Pass your model through the official **Khronos gLTF Validator**. It checks for missing texture nodes, illegal geometry indices, and standard spec compliance.
+
+#### 6. How can I compress large GLB files for web deployment?
+Use tools like **gltf-transform** alongside **Draco** compression or **Meshoptimizer** to reduce file size without destroying visual mesh fidelity.
+
+#### 7. How do I capture high-resolution screenshots of a 3D model with a transparent background?
+Use **GLBKit Screenshot Tool**, which allows you to adjust viewport resolution, frame the model, hide lighting, and export full PNG images with zero background color.
+
+#### 8. Can Google Chrome open GLB files natively?
+Chrome does not open 3D formats out of the box. You must load the file using a web viewer powered by WebGL/Three.js or integrate Google's `<model-viewer>` component into a page.
+
+#### 9. Can I view GLB files on mobile devices (iOS / Android)?
+Yes. WebGL-supported mobile browsers can open online viewers natively. Additionally, Android supports WebXR/SceneViewer and iOS supports QuickLook (via USDZ conversion).
+
+#### 10. Can Blender export directly to GLB/gLTF?
+Yes. Blender includes a native gLTF/GLB exporter under `File > Export > glTF 2.0 (.gltf/.glb)`.
+
+#### 11. What is the difference between FBX and GLB?
+FBX is a proprietary 3D format maintained by Autodesk primarily for desktop workflows. GLB is an open, WebGL-optimized standard tailored for fast network transmission and direct web rendering.
+
+#### 12. How do I convert FBX to GLB?
+You can convert FBX to GLB by importing the FBX into Blender and exporting it as gLTF 2.0, or by using automated conversion pipelines built on CLI tools.
+
+#### 13. How do I convert GLB to USDZ for iOS AR applications?
+You can use conversion tools like `google/model-viewer` CLI tools, Reality Converter on macOS, or `gltf-transform` plugins.
+
+#### 14. What is Draco compression?
+Draco is an open-source library developed by Google that drastically reduces the file size of 3D meshes and point clouds by compressing vertex buffers and indices.
+
+#### 15. How do I optimize WebGL model performance?
+Reduce draw calls by combining meshes, lower texture dimensions (use KTX2 / Basis Universal compression), reduce polygon counts, and remove unused animation channels.
 
 ---
 
