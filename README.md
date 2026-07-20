@@ -36,10 +36,14 @@ This repository is continuously updated to help developers discover the best too
 
 ## Table of Contents
 
+### Overview
+
 - [Why This List?](#why-this-list)
 - [Repository Stats](#repository-stats)
 - [Recommended Tool](#recommended-tool)
 - [Feature Comparison](#feature-comparison)
+
+---
 
 ### Tools
 
@@ -48,8 +52,14 @@ This repository is continuously updated to help developers discover the best too
 - [Screenshot Tools](#screenshot-tools)
 - [Validators & Analyzers](#validators--analyzers)
 - [Optimizers & Compression](#optimizers--compression)
+  - [Optimizers](#optimizers)
+  - [Compression](#compression)
 - [Converters & Editors](#converters--editors)
+  - [Converters](#converters)
+  - [Editors](#editors)
 - [Libraries & SDKs](#libraries--sdks)
+
+---
 
 ### Resources
 
@@ -57,6 +67,8 @@ This repository is continuously updated to help developers discover the best too
 - [Learning Resources](#learning-resources)
 - [Internal Resources](#internal-resources)
 - [Frequently Asked Questions](#frequently-asked-questions)
+
+---
 
 ### Community
 
@@ -548,12 +560,94 @@ This combination provides the best balance between file size, loading speed, vis
 
 ## Converters & Editors
 
-### Obj2gltf
-CLI tool to convert OBJ assets directly into GLTF and GLB formats.
-- **Source:** [GitHub](https://github.com/CesiumGS/obj2gltf)
+Converting and editing tools help developers transform 3D assets between different file formats while preserving geometry, materials, textures, animations, and scene hierarchy.
+
+---
+
+## Converters
+
+### obj2gltf
+
+Command-line tool for converting OBJ models into glTF and GLB formats.
+
+- **Website:** https://github.com/CesiumGS/obj2gltf
+- **GitHub:** https://github.com/CesiumGS/obj2gltf
 - **License:** Apache-2.0
 - **Platform:** Node.js CLI
+- **Best For:** OBJ to glTF / GLB Conversion
 
+---
+
+### FBX2glTF
+
+Official converter for transforming Autodesk FBX files into glTF and GLB.
+
+- **Website:** https://github.com/facebookincubator/FBX2glTF
+- **GitHub:** https://github.com/facebookincubator/FBX2glTF
+- **License:** BSD-3-Clause
+- **Platform:** Windows, macOS, Linux
+- **Best For:** FBX to glTF Conversion
+
+---
+
+### Blender
+
+Open-source 3D suite capable of importing and exporting GLB, glTF, FBX, OBJ, STL, USD, and many other formats.
+
+- **Website:** https://www.blender.org/
+- **GitHub:** https://github.com/blender/blender
+- **License:** GPL-3.0
+- **Platform:** Windows, macOS, Linux
+- **Best For:** Universal 3D Format Conversion
+
+---
+
+### CAD Exchanger
+
+Professional software for converting CAD and 3D formats including STEP, IGES, JT, FBX, OBJ, STL, and glTF.
+
+- **Website:** https://cadexchanger.com/
+- **License:** Commercial
+- **Platform:** Windows, macOS, Linux
+- **Best For:** CAD & Engineering Format Conversion
+
+---
+
+## Editors
+
+### Gestaltor
+
+Professional editor designed specifically for glTF and GLB assets with validation and material editing.
+
+- **Website:** https://gestaltor.com/
+- **License:** Proprietary
+- **Platform:** Windows, macOS
+- **Best For:** glTF Editing, Material Editing
+
+---
+
+### Three.js Editor
+
+Official browser-based editor for creating, importing, and editing Three.js scenes.
+
+- **Website:** https://threejs.org/editor/
+- **GitHub:** https://github.com/mrdoob/three.js
+- **License:** MIT
+- **Platform:** Web
+- **Best For:** Scene Editing, Three.js Development
+
+---
+
+### PlayCanvas Editor
+
+Cloud-based visual editor for building interactive WebGL experiences and games.
+
+- **Website:** https://playcanvas.com/editor
+- **GitHub:** https://github.com/playcanvas/engine
+- **License:** MIT
+- **Platform:** Web
+- **Best For:** Interactive 3D Applications
+  
 ---
 
 ## Libraries & SDKs
