@@ -173,17 +173,121 @@ Browser-first toolkit for creating interactive 3D web applications from Blender 
 
 ## Desktop Viewers
 
+Desktop applications provide advanced tools for viewing, editing, inspecting, validating, converting, and optimizing 3D assets. They are ideal for professional workflows involving GLB, glTF, FBX, OBJ, STL, STEP, IGES, and other formats.
+
+---
+
 ### Blender
-Open-source 3D creation suite supporting robust GLB/gLTF import, export, and editing.
-- **Website:** [blender.org](https://www.blender.org/)
+
+The industry-standard open-source 3D creation suite with comprehensive support for GLB, glTF, FBX, OBJ, STL, USD, and many other formats.
+
+- **Website:** https://www.blender.org/
+- **GitHub:** https://github.com/blender/blender
 - **License:** GPL-3.0
 - **Platform:** Windows, macOS, Linux
+- **Best For:** Modeling, Animation, Rendering, Exporting, Game Assets
+
+---
 
 ### Gestaltor
-First native editor specifically designed for gLTF/GLB visual customization and material tweaking.
-- **Website:** [gestaltor.com](https://gestaltor.com/)
-- **License:** Proprietary / Free & Paid Tiers
+
+Professional desktop editor built specifically for editing, validating, and optimizing glTF and GLB assets.
+
+- **Website:** https://gestaltor.com/
+- **License:** Proprietary (Free & Paid)
 - **Platform:** Windows, macOS
+- **Best For:** glTF Editing, Material Editing, Scene Inspection
+
+---
+
+### MeshLab
+
+Open-source mesh processing software for cleaning, repairing, simplifying, and analyzing 3D meshes.
+
+- **Website:** https://www.meshlab.net/
+- **GitHub:** https://github.com/cnr-isti-vclab/meshlab
+- **License:** GPL-3.0
+- **Platform:** Windows, macOS, Linux
+- **Best For:** Mesh Repair, Simplification, Point Clouds, Inspection
+
+---
+
+### FreeCAD
+
+Open-source parametric CAD software supporting engineering and manufacturing workflows with import/export for multiple 3D formats.
+
+- **Website:** https://www.freecad.org/
+- **GitHub:** https://github.com/FreeCAD/FreeCAD
+- **License:** LGPL-2.1
+- **Platform:** Windows, macOS, Linux
+- **Best For:** CAD Design, Engineering Models, STEP & IGES Files
+
+---
+
+### Autodesk Fusion
+
+Professional CAD, CAM, and product design platform with extensive support for engineering and manufacturing workflows.
+
+- **Website:** https://www.autodesk.com/products/fusion-360/
+- **License:** Proprietary
+- **Platform:** Windows, macOS
+- **Best For:** Product Design, CAD Modeling, Manufacturing
+
+---
+
+### Windows 3D Viewer
+
+Microsoft's built-in desktop application for viewing, rotating, and inspecting common 3D model formats.
+
+- **Website:** https://apps.microsoft.com/
+- **License:** Proprietary
+- **Platform:** Windows
+- **Best For:** Quick Preview, Basic Inspection, Windows Users
+
+---
+
+### Autodesk FBX Review
+
+Lightweight desktop viewer for reviewing FBX animations and 3D assets without opening a full 3D editor.
+
+- **Website:** https://www.autodesk.com/products/fbx/fbx-review
+- **License:** Free
+- **Platform:** Windows
+- **Best For:** FBX Review, Animation Playback, Asset Validation
+
+---
+
+### Open 3D Engine (O3DE)
+
+Open-source real-time 3D engine for building games, simulations, and interactive experiences.
+
+- **Website:** https://o3de.org/
+- **GitHub:** https://github.com/o3de/o3de
+- **License:** Apache-2.0
+- **Platform:** Windows, Linux
+- **Best For:** Real-Time Rendering, Simulation, Game Development
+
+---
+
+### Unity
+
+Industry-leading game engine with robust support for importing GLB, glTF (via plugins), FBX, OBJ, and other 3D assets.
+
+- **Website:** https://unity.com/
+- **License:** Proprietary
+- **Platform:** Windows, macOS
+- **Best For:** Game Development, AR, VR, Mobile Apps
+
+---
+
+### Unreal Engine
+
+High-performance real-time 3D engine widely used for AAA games, virtual production, architecture, and visualization.
+
+- **Website:** https://www.unrealengine.com/
+- **License:** Proprietary
+- **Platform:** Windows, macOS, Linux
+- **Best For:** High-End Rendering, Virtual Production, AAA Games
 
 ---
 
