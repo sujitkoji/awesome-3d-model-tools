@@ -4,8 +4,6 @@ Thank you for your interest in contributing to **Awesome 3D Model Tools**!
 
 We welcome high-quality contributions related to **GLB**, **glTF**, **3D graphics**, **WebGL**, **WebGPU**, **Three.js**, **Babylon.js**, **React Three Fiber (R3F)**, **viewers**, **validators**, **converters**, **optimizers**, **libraries**, **SDKs**, and other developer tools.
 
----
-
 ## Accepted Categories
 
 Please add tools only if they fit one of the following categories:
@@ -20,7 +18,6 @@ Please add tools only if they fit one of the following categories:
 - Official Resources
 - Learning Resources
 
----
 
 ## Before Submitting
 
@@ -32,8 +29,6 @@ Please make sure the tool:
 - Includes a short, clear, and objective description.
 - Is not already listed.
 - Provides real value to developers or 3D artists.
-
----
 
 ## Tool Format
 
@@ -67,8 +62,6 @@ Browser-based GLB and glTF viewer for inspecting 3D assets.
 - Best For: Viewing, Debugging, Inspection
 ```
 
----
-
 ## Pull Requests
 
 Before opening a Pull Request:
@@ -80,8 +73,6 @@ Before opening a Pull Request:
 - Avoid duplicate entries.
 - Group similar additions together when possible.
 
----
-
 ## Repository Guidelines
 
 Please:
@@ -91,8 +82,6 @@ Please:
 - Do not add referral or affiliate links.
 - Prefer official websites and official GitHub repositories.
 - Keep entries organized alphabetically whenever possible.
-
----
 
 ## Reporting Issues
 
@@ -105,7 +94,6 @@ If you find:
 
 Please open an Issue or submit a Pull Request.
 
----
 
 ## Thank You
 
