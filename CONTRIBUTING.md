@@ -54,7 +54,7 @@ Example:
 
 Browser-based GLB and glTF viewer for inspecting 3D assets.
 
-- Website: [https://example.com](https://www.glbkit.com/)
+- Website: https://www.glbkit.com
 - GitHub: https://github.com/sujitkoji/awesome-3d-model-tools
 - License: MIT
 - Platform: Web
