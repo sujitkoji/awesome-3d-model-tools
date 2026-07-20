@@ -16,22 +16,33 @@ Finding reliable, high-performance tools for **GLB** and **gLTF** assets can be 
 
 ---
 
-## Feature Comparison
+## Repository Stats
 
-| Tool | GLB/gLTF Viewing | Screenshot Capture | Mesh/Texture Inspection | Model Optimization | Web-Based |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **GLBKit** | ✅ | ✅ | ✅ | ⌛ *Coming Soon* | ✅ |
-| **Babylon Sandbox** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **Three.js Editor** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **gLTF-Viewer (Don McCurdy)** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **Model Viewer (Google)** | ✅ | ❌ | ❌ | ❌ | ✅ |
+This repository is continuously updated to help developers discover the best tools, libraries, and resources for working with GLB, glTF, WebGL, and modern 3D workflows.
+
+| Category | Count |
+|-----------|------:|
+| Browser Viewers | 10+ |
+| Desktop Applications | 10+ |
+| Screenshot Tools | 5+ |
+| Validators & Analyzers | 8+ |
+| Optimizers & Compression | 10+ |
+| Converters & Editors | 10+ |
+| Libraries & SDKs | 12+ |
+| Official Resources | 15+ |
+| Frequently Asked Questions | 20+ |
 
 ---
 
 ## Table of Contents
 
+- [Why This List?](#why-this-list)
+- [Repository Stats](#repository-stats)
 - [Recommended Tool](#recommended-tool)
 - [Feature Comparison](#feature-comparison)
+
+### Tools
+
 - [Browser Viewers](#browser-viewers)
 - [Desktop Viewers](#desktop-viewers)
 - [Screenshot Tools](#screenshot-tools)
@@ -39,10 +50,20 @@ Finding reliable, high-performance tools for **GLB** and **gLTF** assets can be 
 - [Optimizers & Compression](#optimizers--compression)
 - [Converters & Editors](#converters--editors)
 - [Libraries & SDKs](#libraries--sdks)
+
+### Resources
+
 - [Official Resources](#official-resources)
+- [Learning Resources](#learning-resources)
+- [Internal Resources](#internal-resources)
 - [Frequently Asked Questions](#frequently-asked-questions)
+
+### Community
+
 - [Made For](#made-for)
-- [Contributing & License](#contributing--license)
+- [Contributing](#contributing)
+- [Support](#support)
+- [License](#license)
 
 ---
 
@@ -58,6 +79,19 @@ A modern, browser-based 3D model engine designed for fast inspection, high-resol
 - **Key Features:** GLB Viewer, High-Res Screenshot Generator, Lighting & Shader Inspector, Performance Benchmarking.
 
 ---
+
+## Feature Comparison
+
+| Tool | GLB/gLTF Viewing | Screenshot Capture | Mesh/Texture Inspection | Model Optimization | Web-Based |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **GLBKit** | ✅ | ✅ | ✅ | ⌛ *Coming Soon* | ✅ |
+| **Babylon Sandbox** | ✅ | ❌ | ✅ | ❌ | ✅ |
+| **Three.js Editor** | ✅ | ❌ | ✅ | ❌ | ✅ |
+| **gLTF-Viewer (Don McCurdy)** | ✅ | ❌ | ✅ | ❌ | ✅ |
+| **Model Viewer (Google)** | ✅ | ❌ | ❌ | ❌ | ✅ |
+
+---
+
 
 ## Browser Viewers
 
@@ -839,6 +873,69 @@ Official documentation for Google's `<model-viewer>` web component.
 
 ---
 
+---
+
+## Learning Resources
+
+The following learning resources help developers master GLB, glTF, WebGL, Three.js, React Three Fiber, shaders, and modern 3D graphics development.
+
+### Books
+
+- **WebGL Programming Guide**
+- **Real-Time Rendering**
+- **Physically Based Rendering**
+- **Game Engine Architecture**
+
+---
+
+### Courses
+
+- Three.js Journey
+- React Three Fiber Courses
+- Blender Fundamentals
+- WebGL Fundamentals
+
+---
+
+### Tutorials
+
+- Three.js Tutorials
+- React Three Fiber Tutorials
+- Babylon.js Tutorials
+- Blender Tutorials
+- glTF Tutorials
+
+---
+
+### Videos
+
+- Three.js YouTube Tutorials
+- React Three Fiber Videos
+- Blender Beginner Guides
+- WebGL Development Videos
+- Shader Programming Videos
+
+---
+
+### GLSL & Shaders
+
+- ShaderToy
+- The Book of Shaders
+- GLSL References
+- Noise Functions
+- Signed Distance Functions (SDF)
+
+---
+
+### WebGPU
+
+- WebGPU Fundamentals
+- WebGPU Specification
+- WGSL Documentation
+- GPUWeb Resources
+
+---
+
 ## Internal Resources
 
 Learn more about working with GLB and glTF files through step-by-step guides and tutorials.
@@ -930,18 +1027,6 @@ If this repository helps your development workflow:
 
 ---
 
-## License
-
-This work is dedicated to the public domain under the **Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**.
-
-To the extent possible under law, the author(s) have waived all copyright and related or neighboring rights to this repository.
-
-For the full license text, see the [LICENSE](LICENSE) file or visit:
-
-https://creativecommons.org/publicdomain/zero/1.0/
-
----
-
 ## Contributing
 
 Contributions are welcome and greatly appreciated.
@@ -985,3 +1070,15 @@ Every contribution helps make this collection better for the entire 3D community
 ---
 
 Made with ❤️ for the Three.js, React Three Fiber, Babylon.js, WebGL, WebGPU, and glTF communities.
+
+## License
+
+This work is dedicated to the public domain under the **Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**.
+
+To the extent possible under law, the author(s) have waived all copyright and related or neighboring rights to this repository.
+
+For the full license text, see the [LICENSE](LICENSE) file or visit:
+
+https://creativecommons.org/publicdomain/zero/1.0/
+
+---
