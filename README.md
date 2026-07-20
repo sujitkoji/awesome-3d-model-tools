@@ -305,8 +305,6 @@ High-resolution, transparent-background image capture utility for 3D web assets.
 
 Validators and analyzers help ensure that GLB and glTF files follow the official specification, detect structural issues, identify compatibility problems, and improve asset quality before deployment.
 
----
-
 ### Khronos glTF Validator
 
 The official validator maintained by the Khronos Group for verifying glTF 2.0 compliance and detecting specification errors.
@@ -959,8 +957,6 @@ If this repository helps your development workflow:
 - 📢 **Share** with fellow web & 3D developers
 - 💡 **Submit a Pull Request** to add new, high-quality GLB tools
 
----
-
 ## Contributing
 
 Contributions are welcome and greatly appreciated.
@@ -988,8 +984,6 @@ Please read the **CONTRIBUTING.md** guide before opening a Pull Request.
 
 Thank you for helping make this repository a valuable resource for the 3D developer community.
 
---- 
-
 ## Support
 
 If you find this repository useful:
@@ -1000,8 +994,6 @@ If you find this repository useful:
 - 💡 Submit new tools and resources
 
 Every contribution helps make this collection better for the entire 3D community.
-
----
 
 Made with ❤️ for the Three.js, React Three Fiber, Babylon.js, WebGL, WebGPU, and glTF communities.
 
