@@ -61,32 +61,113 @@ A modern, browser-based 3D model engine designed for fast inspection, high-resol
 
 ## Browser Viewers
 
-### GLBKit
-Browser-based GLB viewer and inspector with screenshot support and material breakdown.
-- **Website:** [glbkit.com](https://glbkit.com)
+Browser-based 3D viewers allow you to inspect, preview, debug, and share GLB, glTF, FBX, OBJ, STL, and other 3D assets directly from your web browser without installing desktop software.
+
+---
+
+### ⭐ GLBKit
+
+Modern browser-based toolkit for viewing, inspecting, and capturing screenshots of GLB and glTF files.
+
+- **Website:** https://glbkit.com
 - **License:** Free
 - **Platform:** Web
+- **Best For:** Developers, Three.js, React Three Fiber, Babylon.js
+- **Features:** Viewer, Screenshot, Inspector, Statistics, Material Analysis, Camera Controls
 
-### gLTF Viewer
-Online viewer built on Three.js for fast model inspection and animation testing.
-- **Website:** [gltf-viewer.donmccurdy.com](https://gltf-viewer.donmccurdy.com/)
-- **Source:** [GitHub](https://github.com/donmccurdy/three-gltf-viewer)
+---
+
+### Don McCurdy glTF Viewer
+
+Lightweight online glTF viewer built with Three.js for inspecting models, materials, animations, and lighting.
+
+- **Website:** https://gltf-viewer.donmccurdy.com/
+- **GitHub:** https://github.com/donmccurdy/three-gltf-viewer
 - **License:** MIT
 - **Platform:** Web
+- **Best For:** Quick Preview, Debugging, Animation Testing
 
-### Babylon Sandbox
-Official WebGL viewer powered by Babylon.js with visual debugging and lighting options.
-- **Website:** [sandbox.babylonjs.com](https://sandbox.babylonjs.com/)
-- **Source:** [GitHub](https://github.com/BabylonJS/Babylon.js)
+---
+
+### Babylon.js Sandbox
+
+Official browser-based viewer and playground from Babylon.js with built-in debugging tools.
+
+- **Website:** https://sandbox.babylonjs.com/
+- **GitHub:** https://github.com/BabylonJS/Babylon.js
 - **License:** Apache-2.0
 - **Platform:** Web
+- **Best For:** Babylon.js Development, Material Testing, Scene Debugging
 
-### Google `<model-viewer>`
-Web Component for rendering interactive 3D models with AR support.
-- **Website:** [modelviewer.dev](https://modelviewer.dev/)
-- **Source:** [GitHub](https://github.com/google/model-viewer)
+---
+
+### Three.js Editor
+
+Official online editor for creating, importing, and editing Three.js scenes.
+
+- **Website:** https://threejs.org/editor/
+- **GitHub:** https://github.com/mrdoob/three.js
+- **License:** MIT
+- **Platform:** Web
+- **Best For:** Scene Editing, Three.js Development
+
+---
+
+### Google model-viewer
+
+Official Web Component for displaying interactive 3D models on the web with AR support.
+
+- **Website:** https://modelviewer.dev/
+- **GitHub:** https://github.com/google/model-viewer
 - **License:** Apache-2.0
-- **Platform:** Web / AR
+- **Platform:** Web / Android / iOS
+- **Best For:** Product Pages, E-commerce, AR Experiences
+
+---
+
+### PlayCanvas Viewer
+
+Cloud-based WebGL viewer and editor powered by the PlayCanvas engine.
+
+- **Website:** https://playcanvas.com/
+- **GitHub:** https://github.com/playcanvas/engine
+- **License:** MIT
+- **Platform:** Web
+- **Best For:** Interactive Web Apps, Games, Real-time Rendering
+
+---
+
+### Sketchfab
+
+Popular online platform for publishing, viewing, sharing, and embedding interactive 3D models.
+
+- **Website:** https://sketchfab.com/
+- **GitHub:** https://github.com/sketchfab
+- **License:** Proprietary
+- **Platform:** Web
+- **Best For:** Portfolio, Marketplace, 3D Showcase
+
+---
+
+### Vectary
+
+Collaborative browser-based 3D design and visualization platform.
+
+- **Website:** https://www.vectary.com/
+- **License:** Proprietary
+- **Platform:** Web
+- **Best For:** Product Design, Marketing, Team Collaboration
+
+---
+
+### Verge3D
+
+Browser-first toolkit for creating interactive 3D web applications from Blender or 3ds Max.
+
+- **Website:** https://www.soft8soft.com/verge3d/
+- **License:** Commercial
+- **Platform:** Web
+- **Best For:** Interactive Experiences, Product Configurators, Web Applications
 
 ---
 
