@@ -1,5 +1,7 @@
 # Awesome 3D Model Tools 🧊
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 > A curated, open-source list of the best free tools, libraries, and resources for working with **3D model files** — GLB, glTF, FBX, OBJ and more — covering viewers, converters, optimizers, validators, and screenshot/render tools for web developers, game developers, and 3D artists worldwide.
 
 3D model formats like GLB, glTF, FBX, and OBJ power everything from e-commerce product viewers and AR/VR experiences to games and design tools. This list collects free, actively maintained resources for viewing, inspecting, converting, and optimizing 3D model files, so developers anywhere in the world can find the right tool without digging through search results.
