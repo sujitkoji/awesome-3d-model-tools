@@ -731,6 +731,195 @@ Reduce draw calls by combining meshes, lower texture dimensions (use KTX2 / Basi
 
 ---
 
+## Internal Resources
+
+Learn more about working with GLB and glTF files through step-by-step guides and tutorials.
+
+### Guides
+
+- **How to Use GLB Viewer**
+  - https://www.glbkit.com/guides/how-to-use-glb-viewer
+
+- **How to Take GLB Screenshots**
+  - https://www.glbkit.com/guides/how-to-take-glb-screenshots
+
+### Tools
+
+- **GLB Viewer**
+  - https://www.glbkit.com/glb-viewer
+
+- **GLB Screenshot Tool**
+  - https://www.glbkit.com/glb-screenshot
+
+---
+
+## Official Resources
+
+Official documentation, specifications, APIs, SDKs, and standards for modern 3D graphics, WebGL, WebGPU, and glTF development.
+
+---
+
+### Khronos Group
+
+The official organization behind the glTF 2.0 specification, Vulkan, OpenXR, OpenCL, and OpenGL standards.
+
+- **Website:** https://www.khronos.org/
+- **Best For:** glTF Specification, Open Standards, APIs
+
+---
+
+### glTF 2.0 Specification
+
+Official specification for the glTF 2.0 file format.
+
+- **Website:** https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html
+- **Maintained By:** Khronos Group
+
+---
+
+### Three.js Documentation
+
+Official documentation for the Three.js JavaScript 3D library.
+
+- **Website:** https://threejs.org/docs/
+- **Examples:** https://threejs.org/examples/
+
+---
+
+### Babylon.js Documentation
+
+Official documentation for Babylon.js.
+
+- **Website:** https://doc.babylonjs.com/
+
+---
+
+### React Three Fiber (R3F)
+
+Official documentation for React Three Fiber.
+
+- **Website:** https://r3f.docs.pmnd.rs/
+
+---
+
+### Drei
+
+Official documentation for Drei.
+
+- **Website:** https://github.com/pmndrs/drei
+
+---
+
+### OpenUSD
+
+Universal Scene Description (USD) framework developed by Pixar for interoperable 3D scenes.
+
+- **Website:** https://openusd.org/
+- **Best For:** Film, VFX, CAD, Interchange
+
+---
+
+### OpenXR
+
+Cross-platform API standard for augmented reality (AR), virtual reality (VR), and mixed reality (MR).
+
+- **Website:** https://www.khronos.org/openxr/
+
+---
+
+### WebGPU
+
+The next-generation graphics API for the modern web.
+
+- **Website:** https://gpuweb.github.io/gpuweb/
+- **Best For:** High-performance graphics and compute
+
+---
+
+### Draco Compression
+
+Google's open-source geometry compression library for reducing GLB and glTF mesh sizes.
+
+- **Website:** https://google.github.io/draco/
+- **GitHub:** https://github.com/google/draco
+
+---
+
+### Meshoptimizer
+
+High-performance mesh optimization library for rendering and compression.
+
+- **Website:** https://meshoptimizer.org/
+- **GitHub:** https://github.com/zeux/meshoptimizer
+
+---
+
+### Basis Universal
+
+Universal GPU texture compression system used by KTX2 textures.
+
+- **Website:** https://github.com/BinomialLLC/basis_universal
+- **Best For:** GPU Texture Compression
+
+---
+
+### KTX2
+
+Official Khronos texture container format optimized for GPU-compressed textures.
+
+- **Website:** https://www.khronos.org/ktx/
+- **Specification:** https://registry.khronos.org/KTX/
+
+---
+
+### WebGL
+
+Official documentation and guides for the WebGL API.
+
+- **Website:** https://developer.mozilla.org/docs/Web/API/WebGL_API
+
+---
+
+### WebGL Fundamentals
+
+One of the best educational resources for learning WebGL.
+
+- **Website:** https://webglfundamentals.org/
+
+---
+
+### WebGPU Fundamentals
+
+Hands-on tutorials for learning WebGPU.
+
+- **Website:** https://webgpufundamentals.org/
+
+---
+
+### ShaderToy
+
+Interactive platform for creating and sharing GLSL shaders.
+
+- **Website:** https://www.shadertoy.com/
+
+---
+
+### Blender Documentation
+
+Official Blender manual and API documentation.
+
+- **Website:** https://docs.blender.org/
+
+---
+
+### model-viewer Documentation
+
+Official documentation for Google's `<model-viewer>` web component.
+
+- **Website:** https://modelviewer.dev/docs/
+
+---
+
 ## Made For
 
 - **Three.js Developers**
@@ -753,4 +942,56 @@ If this repository helps your development workflow:
 
 ## License
 
-To the extent possible under law, the author(s) have waived all copyright and related or neighboring rights to this work under the **CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**.
+This work is dedicated to the public domain under the **Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**.
+
+To the extent possible under law, the author(s) have waived all copyright and related or neighboring rights to this repository.
+
+For the full license text, see the [LICENSE](LICENSE) file or visit:
+
+https://creativecommons.org/publicdomain/zero/1.0/
+
+---
+
+## Contributing
+
+Contributions are welcome and greatly appreciated.
+
+You can help improve this repository by:
+
+- Adding high-quality 3D tools
+- Adding GLB and glTF utilities
+- Improving descriptions
+- Fixing broken links
+- Updating outdated resources
+- Improving documentation
+- Suggesting new categories
+- Reporting issues
+
+Before submitting a Pull Request, please ensure that:
+
+- The tool is actively maintained.
+- The description is clear and concise.
+- Official documentation is preferred.
+- Duplicate entries are avoided.
+- Links are valid and working.
+
+Please read the **CONTRIBUTING.md** guide before opening a Pull Request.
+
+Thank you for helping make this repository a valuable resource for the 3D developer community.
+
+--- 
+
+## Support
+
+If you find this repository useful:
+
+- ⭐ Star this repository
+- 🍴 Fork it
+- 📢 Share it with other developers
+- 💡 Submit new tools and resources
+
+Every contribution helps make this collection better for the entire 3D community.
+
+---
+
+Made with ❤️ for the Three.js, React Three Fiber, Babylon.js, WebGL, WebGPU, and glTF communities.
