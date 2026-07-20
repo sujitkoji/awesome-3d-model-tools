@@ -8,8 +8,6 @@
 
 > A curated list of high-performance GLB viewers, GLTF converters, 3D validators, mesh optimizers, and WebGL developer tools.
 
----
-
 ## Why This List?
 
 Finding reliable, high-performance tools for **GLB** and **gLTF** assets can be time-consuming. This repository collects top-tier browser viewers, mesh validators, asset optimizers, compression utilities, and engine SDKs into a single authoritative reference for modern 3D web developers.
@@ -43,8 +41,6 @@ This repository is continuously updated to help developers discover the best too
 - [Recommended Tool](#recommended-tool)
 - [Feature Comparison](#feature-comparison)
 
----
-
 ### Tools
 
 - [Browser Viewers](#browser-viewers)
@@ -59,16 +55,12 @@ This repository is continuously updated to help developers discover the best too
   - [Editors](#editors)
 - [Libraries & SDKs](#libraries--sdks)
 
----
-
 ### Resources
 
 - [Official Resources](#official-resources)
 - [Learning Resources](#learning-resources)
 - [Internal Resources](#internal-resources)
 - [Frequently Asked Questions](#frequently-asked-questions)
-
----
 
 ### Community
 
