@@ -1,4 +1,4 @@
-# Awesome 3D Model Tools 🧊
+# Awesome 3D Model Tools
 
 ![License](https://img.shields.io/badge/license-CC0-blue)
 ![Awesome](https://awesome.re/badge.svg)
