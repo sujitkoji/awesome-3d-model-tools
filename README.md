@@ -303,34 +303,212 @@ High-resolution, transparent-background image capture utility for 3D web assets.
 
 ## Validators & Analyzers
 
-### Khronos gLTF Validator
-Official validation suite for verifying gLTF 2.0 specifications and detecting structure errors.
-- **Website:** [github.com/KhronosGroup/glTF-Validator](https://github.com/KhronosGroup/glTF-Validator)
+Validators and analyzers help ensure that GLB and glTF files follow the official specification, detect structural issues, identify compatibility problems, and improve asset quality before deployment.
+
+---
+
+### Khronos glTF Validator
+
+The official validator maintained by the Khronos Group for verifying glTF 2.0 compliance and detecting specification errors.
+
+- **Website:** https://github.com/KhronosGroup/glTF-Validator
 - **License:** Apache-2.0
-- **Platform:** Web / CLI
+- **Platform:** Web, CLI, Node.js
+- **Best For:** Specification Validation, Error Detection, CI/CD Integration
+
+---
+
+### glTF Transform Inspect
+
+Powerful inspection tool included with glTF Transform for analyzing model statistics, geometry, textures, materials, animations, and optimization opportunities.
+
+- **Website:** https://gltf-transform.dev/
+- **GitHub:** https://github.com/donmccurdy/glTF-Transform
+- **License:** MIT
+- **Platform:** CLI, Node.js
+- **Best For:** Model Analysis, Asset Inspection, Optimization Reports
+
+---
+
+### glTF Report
+
+Interactive web-based analyzer that generates detailed reports for glTF and GLB assets, including mesh statistics, texture information, materials, animations, and rendering performance.
+
+- **Website:** https://gltf.report/
+- **GitHub:** https://github.com/ux3d/gltf-report
+- **License:** MIT
+- **Platform:** Web
+- **Best For:** Performance Analysis, Asset Reports, Model Statistics
+
+---
+
+### Gestaltor Validation
+
+Built-in validation tools for inspecting glTF and GLB assets, identifying issues, and verifying compatibility before publishing.
+
+- **Website:** https://gestaltor.com/
+- **License:** Proprietary
+- **Platform:** Windows, macOS
+- **Best For:** Professional Validation, Asset Editing, Production Workflows
+
+---
+
+### Babylon.js Inspector
+
+Built-in scene inspector for debugging meshes, materials, textures, cameras, lights, and rendering performance in Babylon.js applications.
+
+- **Website:** https://doc.babylonjs.com/
+- **GitHub:** https://github.com/BabylonJS/Babylon.js
+- **License:** Apache-2.0
+- **Platform:** Web
+- **Best For:** Scene Debugging, Material Inspection, Performance Analysis
+
+---
+
+### Three.js Inspector Tools
+
+Developer tools and debugging utilities for inspecting Three.js scenes, meshes, materials, textures, cameras, and rendering performance.
+
+- **Website:** https://threejs.org/
+- **GitHub:** https://github.com/mrdoob/three.js
+- **License:** MIT
+- **Platform:** Web
+- **Best For:** Three.js Debugging, Scene Inspection, Performance Profiling
 
 ---
 
 ## Optimizers & Compression
 
-### gltf-transform
-Command-line engine and JS SDK for editing, inspecting, and optimizing 3D assets.
-- **Website:** [gltf-transform.dev](https://gltf-transform.dev/)
-- **Source:** [GitHub](https://github.com/donmccurdy/glTF-Transform)
-- **License:** MIT
-- **Platform:** CLI / Node.js
+Optimization and compression tools help reduce file size, improve loading speed, lower memory usage, and increase rendering performance for GLB and glTF assets.
 
-### Draco 3D Data Compression
-Library for compressing and decompressing 3D geometric meshes and point clouds.
-- **Source:** [GitHub](https://github.com/google/draco)
-- **License:** Apache-2.0
-- **Platform:** C++ / JavaScript / WASM
+---
+
+## Optimizers
+
+### glTF Transform
+
+Powerful toolkit for inspecting, editing, optimizing, and transforming glTF and GLB assets.
+
+- **Website:** https://gltf-transform.dev/
+- **GitHub:** https://github.com/donmccurdy/glTF-Transform
+- **License:** MIT
+- **Platform:** CLI, Node.js
+- **Best For:** Optimization, Asset Processing, Batch Workflows
+
+---
 
 ### Meshoptimizer
-Mesh optimization library for making 3D models render faster and compress better.
-- **Source:** [GitHub](https://github.com/zeux/meshoptimizer)
+
+Industry-standard mesh optimization library designed to improve rendering performance and compression efficiency.
+
+- **Website:** https://meshoptimizer.org/
+- **GitHub:** https://github.com/zeux/meshoptimizer
 - **License:** MIT
-- **Platform:** C++ / WASM
+- **Platform:** C++, JavaScript, WASM
+- **Best For:** Vertex Optimization, LOD Generation, Runtime Performance
+
+---
+
+### gltfpack
+
+High-performance glTF optimizer built on top of Meshoptimizer.
+
+- **Website:** https://meshoptimizer.org/gltf/
+- **GitHub:** https://github.com/zeux/meshoptimizer
+- **License:** MIT
+- **Platform:** CLI
+- **Best For:** File Size Reduction, Production Deployment
+
+---
+
+### Blender Optimization Tools
+
+Built-in tools for mesh cleanup, decimation, texture optimization, and export preparation.
+
+- **Website:** https://www.blender.org/
+- **License:** GPL-3.0
+- **Platform:** Windows, macOS, Linux
+- **Best For:** Manual Optimization, Asset Cleanup
+
+---
+
+## Compression
+
+### Draco
+
+Open-source geometry compression library developed by Google for reducing mesh and point cloud file sizes.
+
+- **Website:** https://google.github.io/draco/
+- **GitHub:** https://github.com/google/draco
+- **License:** Apache-2.0
+- **Platform:** C++, JavaScript, WASM
+- **Best For:** Geometry Compression, Smaller Downloads
+
+---
+
+### Meshoptimizer Compression
+
+Compression algorithms for index buffers, vertex buffers, and mesh data.
+
+- **Website:** https://meshoptimizer.org/
+- **GitHub:** https://github.com/zeux/meshoptimizer
+- **License:** MIT
+- **Platform:** C++, JavaScript, WASM
+- **Best For:** Runtime Performance, Efficient Asset Delivery
+
+---
+
+### Basis Universal
+
+Universal texture compression system designed for efficient GPU texture delivery across multiple platforms.
+
+- **Website:** https://github.com/BinomialLLC/basis_universal
+- **GitHub:** https://github.com/BinomialLLC/basis_universal
+- **License:** Apache-2.0
+- **Platform:** C++, JavaScript
+- **Best For:** Texture Compression, Cross-Platform Rendering
+
+---
+
+### KTX2
+
+Modern container format for GPU-compressed textures used in WebGL, WebGPU, Three.js, and Babylon.js workflows.
+
+- **Website:** https://www.khronos.org/ktx/
+- **GitHub:** https://github.com/KhronosGroup/KTX-Software
+- **License:** Apache-2.0
+- **Platform:** Cross Platform
+- **Best For:** GPU Textures, Fast Loading, Reduced Memory Usage
+
+---
+
+### BasisU + KTX2 Workflow
+
+Recommended modern texture pipeline for web-based 3D applications.
+
+Benefits:
+
+- Smaller Texture Files
+- Faster Downloads
+- Reduced GPU Memory Usage
+- Better Mobile Performance
+- Three.js Compatible
+- Babylon.js Compatible
+- WebGPU Ready
+
+---
+
+### Recommended Stack
+
+For production-ready GLB and glTF assets:
+
+- **glTF Transform** → Asset Processing
+- **Meshoptimizer** → Geometry Optimization
+- **Draco** → Mesh Compression
+- **Basis Universal** → Texture Compression
+- **KTX2** → GPU Texture Delivery
+
+This combination provides the best balance between file size, loading speed, visual quality, and runtime performance.
 
 ---
 
@@ -346,20 +524,151 @@ CLI tool to convert OBJ assets directly into GLTF and GLB formats.
 
 ## Libraries & SDKs
 
+Libraries and SDKs provide the foundation for building modern 3D web applications, game experiences, product configurators, AR/VR interfaces, and interactive WebGL content.
+
+---
+
 ### Three.js
-Lightweight, high-level JavaScript 3D engine for WebGL.
-- **Website:** [threejs.org](https://threejs.org/)
+
+The most popular JavaScript 3D library for building interactive WebGL experiences in the browser.
+
+- **Website:** https://threejs.org/
+- **GitHub:** https://github.com/mrdoob/three.js
 - **License:** MIT
+- **Platform:** Web
+- **Best For:** WebGL Applications, Interactive 3D, Visualization
+
+---
 
 ### React Three Fiber (R3F)
-React renderer for Three.js built for web and native interfaces.
-- **Website:** [r3f.docs.pmnd.rs](https://r3f.docs.pmnd.rs/)
+
+A React renderer for Three.js that enables declarative 3D development using React components.
+
+- **Website:** https://r3f.docs.pmnd.rs/
+- **GitHub:** https://github.com/pmndrs/react-three-fiber
 - **License:** MIT
+- **Platform:** React
+- **Best For:** React Applications, Interactive UI, Modern Web Apps
+
+---
+
+### Drei
+
+A collection of useful helpers, abstractions, and ready-to-use components for React Three Fiber.
+
+- **Website:** https://github.com/pmndrs/drei
+- **GitHub:** https://github.com/pmndrs/drei
+- **License:** MIT
+- **Platform:** React
+- **Best For:** Cameras, Controls, Loaders, Helpers, Effects
+
+---
+
+### Three Stdlib
+
+Community-maintained utilities extracted from Three.js examples for modern JavaScript projects.
+
+- **Website:** https://github.com/pmndrs/three-stdlib
+- **GitHub:** https://github.com/pmndrs/three-stdlib
+- **License:** MIT
+- **Platform:** JavaScript
+- **Best For:** Controls, Loaders, Postprocessing Utilities
+
+---
 
 ### Babylon.js
-Comprehensive web 3D engine for rendering, physics, and audio.
-- **Website:** [babylonjs.com](https://www.babylonjs.com/)
+
+A complete open-source 3D engine for building games, simulations, visualization tools, and WebXR experiences.
+
+- **Website:** https://www.babylonjs.com/
+- **GitHub:** https://github.com/BabylonJS/Babylon.js
 - **License:** Apache-2.0
+- **Platform:** Web
+- **Best For:** Games, Simulations, AR/VR, Product Configurators
+
+---
+
+### glTF Transform
+
+Powerful SDK and CLI for editing, validating, optimizing, compressing, and converting glTF and GLB assets.
+
+- **Website:** https://gltf-transform.dev/
+- **GitHub:** https://github.com/donmccurdy/glTF-Transform
+- **License:** MIT
+- **Platform:** Node.js
+- **Best For:** Optimization, Compression, Asset Pipelines
+
+---
+
+### GLTFLoader
+
+Official Three.js loader for importing GLB and glTF models into WebGL applications.
+
+- **Website:** https://threejs.org/docs/
+- **GitHub:** https://github.com/mrdoob/three.js
+- **License:** MIT
+- **Platform:** JavaScript
+- **Best For:** Loading GLB & glTF Assets
+
+---
+
+### DRACOLoader
+
+Official Three.js loader for decoding Draco-compressed geometry.
+
+- **Website:** https://threejs.org/docs/
+- **GitHub:** https://github.com/mrdoob/three.js
+- **License:** MIT
+- **Platform:** JavaScript
+- **Best For:** Draco Mesh Compression
+
+---
+
+### KTX2Loader
+
+Official Three.js loader for loading KTX2/Basis Universal compressed GPU textures.
+
+- **Website:** https://threejs.org/docs/
+- **GitHub:** https://github.com/mrdoob/three.js
+- **License:** MIT
+- **Platform:** JavaScript
+- **Best For:** GPU Texture Compression
+
+---
+
+### MeshoptDecoder
+
+Official decoder for Meshoptimizer-compressed geometry used in glTF assets.
+
+- **Website:** https://github.com/zeux/meshoptimizer
+- **GitHub:** https://github.com/zeux/meshoptimizer
+- **License:** MIT
+- **Platform:** JavaScript / WASM
+- **Best For:** Fast Geometry Decoding
+
+---
+
+### @gltf-transform/functions
+
+Collection of reusable optimization, transformation, and compression utilities built on top of glTF Transform.
+
+- **Website:** https://gltf-transform.dev/
+- **GitHub:** https://github.com/donmccurdy/glTF-Transform
+- **License:** MIT
+- **Platform:** Node.js
+- **Best For:** Asset Automation
+
+---
+
+### @gltf-transform/extensions
+
+Utilities for working with official Khronos glTF extensions.
+
+- **Website:** https://gltf-transform.dev/
+- **GitHub:** https://github.com/donmccurdy/glTF-Transform
+- **License:** MIT
+- **Platform:** Node.js
+- **Best For:** glTF Extensions
 
 ---
 
