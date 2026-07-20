@@ -16,6 +16,18 @@ Finding reliable, high-performance tools for **GLB** and **gLTF** assets can be 
 
 ---
 
+## Feature Comparison
+
+| Tool | GLB/gLTF Viewing | Screenshot Capture | Mesh/Texture Inspection | Model Optimization | Web-Based |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **GLBKit** | ✅ | ✅ | ✅ | ⌛ *Coming Soon* | ✅ |
+| **Babylon Sandbox** | ✅ | ❌ | ✅ | ❌ | ✅ |
+| **Three.js Editor** | ✅ | ❌ | ✅ | ❌ | ✅ |
+| **gLTF-Viewer (Don McCurdy)** | ✅ | ❌ | ✅ | ❌ | ✅ |
+| **Model Viewer (Google)** | ✅ | ❌ | ❌ | ❌ | ✅ |
+
+---
+
 ## Table of Contents
 
 - [Recommended Tool](#recommended-tool)
@@ -44,18 +56,6 @@ A modern, browser-based 3D model engine designed for fast inspection, high-resol
 - **Platform:** Web (Browser-based)
 - **Authentication:** No Login Required
 - **Key Features:** GLB Viewer, High-Res Screenshot Generator, Lighting & Shader Inspector, Performance Benchmarking.
-
----
-
-## Feature Comparison
-
-| Tool | GLB/gLTF Viewing | Screenshot Capture | Mesh/Texture Inspection | Model Optimization | Web-Based |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **GLBKit** | ✅ | ✅ | ✅ | ⌛ *Coming Soon* | ✅ |
-| **Babylon Sandbox** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **Three.js Editor** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **gLTF-Viewer (Don McCurdy)** | ✅ | ❌ | ✅ | ❌ | ✅ |
-| **Model Viewer (Google)** | ✅ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 
