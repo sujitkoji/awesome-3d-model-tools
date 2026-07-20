@@ -1,4 +1,4 @@
-# Awesome GLB & 3D Tools
+# Awesome 3D Model Tools
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -7,10 +7,6 @@
 [![WebGL Developer](https://img.shields.io/badge/WebGL-Developer-blue)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 
 > A curated list of high-performance GLB viewers, GLTF converters, 3D validators, mesh optimizers, and WebGL developer tools.
-
----
-
-![Awesome 3D Model Tools Banner](https://raw.githubusercontent.com/username/repo-name/main/assets/banner.png)
 
 ---
 
@@ -258,11 +254,6 @@ If this repository helps your development workflow:
 - ⭐ **Star the project** on GitHub
 - 📢 **Share** with fellow web & 3D developers
 - 💡 **Submit a Pull Request** to add new, high-quality GLB tools
-
-### Recommended GitHub Topics
-
-Maintainers can add the following topics to improve repository discovery:
-`awesome-list` • `awesome` • `glb` • `gltf` • `3d` • `threejs` • `babylonjs` • `webgl` • `viewer` • `converter` • `validator` • `inspector` • `mesh` • `texture` • `model-viewer` • `react-three-fiber` • `r3f`
 
 ---
 
